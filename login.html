@@ -5,11 +5,93 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>大事件-登录/注册</title>
+
+
+    <link rel="stylesheet" href="/assets/lib/layui/css/layui.css">
+    <link rel="stylesheet" href="/assets/css/login.css">
 </head>
 
 <body>
 
+    <!-- 版心 -->
+    <div class="main">
+        <!-- 头部区域 -->
+        <div class="logo">
+            <img src="/assets/images/logo.png" alt="">
+        </div>
+
+
+        <!--  注册登录区域-->
+        <div class="loginAndRegBox">
+            <div class="title-box"></div>
+
+            <!-- 登录模块 -->
+            <div class="login-box">
+                <form class="form-login" id="form-login">
+                    <div class="login-form">
+                        <i class="layui-icon layui-icon-username"></i>
+                        <input type="text" name="username" class="input-up" id="log-uname" placeholder="请输入用户名">
+                        <span class="msg"></span>
+                    </div>
+
+                    <div class="login-form">
+                        <i class="layui-icon layui-icon-password"></i>
+                        <input type="password" name="password" class="input-up" placeholder="请输入密码">
+                        <span class="msg"></span>
+                    </div>
+
+
+                    <button type="submit" class="login-btn ">登录</button>
+
+
+                </form>
+
+                <a href="javascript:;" id="link-reg">去注册账号</a>
+
+            </div>
+
+            <!-- 注册模块 -->
+            <div class="reg-box">
+                <form class="form-sign" id="form-sign">
+                    <div class="login-form">
+                        <i class="layui-icon layui-icon-username"></i>
+                        <input type="text" name="signUsername" class="input-up" placeholder="请输入用户名（6-10位）">
+                        <span class="msg"></span>
+                    </div>
+
+                    <div class="login-form">
+                        <i class="layui-icon layui-icon-password"></i>
+                        <input type="password" name="newpassword" class="input-up" placeholder="请输入密码">
+                        <span class="msg"></span>
+                    </div>
+                    <div class="login-form">
+                        <i class="layui-icon layui-icon-password"></i>
+                        <input type="password" name="repassword" class="input-up" placeholder="再次确认密码">
+                        <span class="msg"></span>
+                    </div>
+
+                    <button type="submit" class="login-btn ">注册</button>
+
+
+                </form>
+
+                <a href="javascript:;" id="link-login">去登录</a>
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+    <div class="tmsg">
+        1
+    </div>
+
+
+    <script src="/assets/lib/jquery.js"></script>
+    <script src="./assets/js/login.js"></script>
 </body>
 
 </html>

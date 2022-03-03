@@ -1,0 +1,88 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: url(/assets/images/login_bg.jpg) no-repeat;
+  background-size: cover;
+}
+.main {
+  width: 1140px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.main .loginAndRegBox {
+  width: 400px;
+  height: 310px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.main .loginAndRegBox .title-box {
+  height: 60px;
+  background: url(/assets/images/login_title.png) no-repeat center;
+}
+.main .loginAndRegBox .login-form {
+  position: relative;
+}
+.main .loginAndRegBox .login-form .layui-icon {
+  position: absolute;
+  left: 20px;
+  top: 8px;
+}
+.main .loginAndRegBox .login-form .input-up {
+  display: block;
+  width: 350px;
+  height: 30px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  padding-left: 30px;
+  border: 1px solid whitesmoke;
+}
+.main .loginAndRegBox .login-form .msg {
+  display: none;
+  color: red;
+  width: 200px;
+  margin-top: -10px;
+  padding-right: 25px;
+}
+.main .loginAndRegBox .login-btn {
+  display: block;
+  width: 350px;
+  height: 30px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  background-color: rgba(8, 150, 231, 0.856);
+  border: none;
+  color: white;
+}
+.main .loginAndRegBox #link-reg,
+.main .loginAndRegBox #link-login {
+  display: flex;
+  float: right;
+  margin-right: 25px;
+}
+.main .loginAndRegBox .reg-box {
+  display: none;
+}
+.main .msg {
+  display: block;
+  color: red;
+  width: 200px;
+  margin-top: -10px;
+  padding-right: 25px;
+}
+.tmsg {
+  display: none;
+  width: 120px;
+  height: 20px;
+  background-color: rgba(227, 233, 173, 0.904);
+  color: black;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
